@@ -40,3 +40,22 @@ body {
     cursor: pointer;
 }
 
+/* Styling för att se vilken sida man är inne på, alltså ingen hover-effekt osv */
+.currentPage {
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+/* innehållsdiven på kontaktsidan */
+#contentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#contactH1 {
+    font-family: 'Cinzel', serif;
+}
