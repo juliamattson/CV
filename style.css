@@ -1,0 +1,42 @@
+
+body {
+    background-color: #C1B3B2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+#mainDiv {
+    width: 90vw;
+    height: 100vh;
+    background-color: white;
+}
+
+#header {
+    background-color: #C1B3B2;
+    color: white;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+    padding-top: 10px;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #C1B3B2;
+    color: white;
+}
+
+.navButtons {
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+}
+
+.navButtons:hover {
+    color: rgb(134, 124, 123);
+    cursor: pointer;
+}
+
