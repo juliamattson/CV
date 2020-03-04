@@ -48,14 +48,23 @@ body {
     text-decoration: underline;
 }
 
-/* innehållsdiven på kontaktsidan */
-#contentDiv {
+/* innehållsdiven på indexsidan, alltså sidan med information om mig */
+#contentAboutMeDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
 }
 
-#contactH1 {
+/* innehållsdiven på kontaktsidan */
+#contactContentDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+h2 {
     font-family: 'Cinzel', serif;
 }
+
