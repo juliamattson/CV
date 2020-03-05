@@ -68,6 +68,17 @@ body {
 
 h2, h4 {
     font-family: 'Cinzel', serif;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(112, 90, 89);
+    cursor: pointer;
 }
 
 /* innehållsdiv på erfarenheter-sidan */
@@ -76,8 +87,8 @@ h2, h4 {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     padding: 10px 50px 10px 50px;
-    height: 100vh;
     background-color: white;
 }
 
@@ -85,8 +96,8 @@ h2, h4 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: center;
-    padding: 5px 10px 5px 10px;
+    justify-content: center;
+    padding: 5px 15px 15px 15px;
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
