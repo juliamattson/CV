@@ -66,7 +66,7 @@ body {
     padding: 15px;
 }
 
-h2, h4 {
+h2, h3, h4 {
     font-family: 'Cinzel', serif;
     margin-bottom: 0;
 }
@@ -101,4 +101,24 @@ a:hover {
     border: 1px solid black;
     border-radius: 5px;
     margin: 10px 0px 10px 0px;
+}
+
+/* innehållsdiv på resumé-sidan */
+
+#resume {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px 10px 50px;
+    background-color: white;   
+}
+
+hr {
+    border: 0;
+    width: 90%;
+    color: #555;
+    background-color: #C1B3B2;
+    height: 5px;
 }

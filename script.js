@@ -12,3 +12,8 @@ function toHomePage() {
 function toExperiences() {
     window.location = "experiences.html"
 }
+
+// Funktion för resumé-knappen i navbaren
+function toResume() {
+    window.location = "resume.html"
+}
